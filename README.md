@@ -3,6 +3,8 @@
 ## Introduction
 This repository contains three Nextflow subworkflows for alignment (GEX and TCR), quality control (sample and cell filtering) and clustering analysis in single-cell RNA sequencing (scRNA-seq) data. The subworkflows are designed to handle and analyze provided input files, ensuring reproducibility and scalability.
 
+> **Disclaimer:** Subworkflows are chained modules providing a high-level functionality (e.g., Alignment, QC, Differential expression) within a pipeline context. These subworkflows should ideally be bundled with the pipeline implementation and shared among different pipelines as needed.
+
 ## Prerequisites
 Before running any of the subworkflows, ensure you have the following installed:
 - [Nextflow](https://www.nextflow.io/) (version 21.04.0 or higher)
