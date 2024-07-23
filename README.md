@@ -1,7 +1,3 @@
-Based on the additional parameter details, here is the revised README:
-
----
-
 # SCRATCH-QC Subworkflows
 
 ## Introduction
