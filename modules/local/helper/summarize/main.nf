@@ -1,5 +1,4 @@
 process HELPER_SUMMARIZE {
-    /* Description */
 
     tag "Rendering QC Table"
     label 'process_single'

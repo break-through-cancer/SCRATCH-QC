@@ -1,4 +1,3 @@
-
 process CELLBENDER {
 
     tag "Running Cellbender on ${sample_id}"
