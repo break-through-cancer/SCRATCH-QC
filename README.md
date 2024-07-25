@@ -112,7 +112,3 @@ For questions or issues, please contact:
 - oandrefonseca@gmail.com
 - lwang22@mdanderson.org
 - ychu2@mdanderson.org
-
----
-
-Feel free to customize any section further based on additional details or preferences.
