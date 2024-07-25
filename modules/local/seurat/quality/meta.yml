@@ -1,5 +1,5 @@
 name: seurat_quality
-description: Assesses the quality of single-cell RNA-seq data by applying a series of quality control checks at the sample and cell level. It normalizes the data, performs dimensionality reduction, and generates reports and diagnostic plots to visualize the quality metrics.
+description: Assesses the quality of single-cell RNA-seq data by applying a series of quality control checks at the sample and cell level.
 keywords:
   - single-cell
   - quality control
