@@ -64,6 +64,7 @@ nextflow run scratch_qc_entry.nf -profile [docker/singularity] --input_gex_matri
 - `--thr_percent_mito`: Threshold for mitochondrial gene percentage (default: `25`).
 - `--thr_n_observed_cells`: Threshold for observed cells (default: `300`).
 - `--skip_scdblfinder`: Skip scDblFinder step (default: `false`).
+- `-profile`: Execution profile. Use `docker` or `singularity`  depending on your containerization preference. Alternatively, you can create an HPC-aware profile for your institution.
 
 ### Example
 ```bash
@@ -93,7 +94,7 @@ nextflow run scratch_cluster_entry.nf -profile docker --input_merged_object data
 ```
 
 ## Configuration
-The subworkflows can be configured using the `nextflow.config` file. Modify this file to set default parameters, profiles, and other settings.
+The subworkflow can be configured using the `nextflow.config` file. Modify this file to set default parameters, profiles, and other settings. An institution profile should be created whenever running the pipeline in an HPC environment, please refer to [Step-by-step guide to writing an institutional profile](https://nf-co.re/docs/tutorials/use_nf-core_pipelines/config_institutional_profile)
 
 ## Output
 Upon successful completion, the results will be available in the specified output directory. You can open the reports in your browser to review the QC metrics and other outputs.
