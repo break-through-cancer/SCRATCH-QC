@@ -3,7 +3,7 @@ process CELLRANGER_COUNT {
     tag "Running GEX on ${sample}"
     label 'process_high'
 
-    container "nfcore/cellranger:7.1.0"
+    container "dustincys/cellranger:8.0.1"
 
     input:
         tuple val(sample), path(reads)
