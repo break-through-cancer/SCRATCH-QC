@@ -3,7 +3,7 @@ process CELLRANGER_VDJ {
     tag "Running VDJ on ${sample}"
     label 'process_high'
 
-    container "dustincys/cellranger:8.0.1"
+    container "nfcore/cellranger:7.1.0"
 
     input:
         tuple val(sample), path(reads)
